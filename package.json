@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start-ejs": "node index-ejs.js",
+    "start-hbs": "node index-hbs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/rakeshprabhu/node-template-parser#readme",
   "dependencies": {
-    "ejs": "^3.1.8"
+    "ejs": "^3.1.8",
+    "handlebars": "^4.7.7"
   }
 }
