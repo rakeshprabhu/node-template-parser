@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-ejs": "node index-ejs.js",
-    "start-hbs": "node index-hbs.js",
+    "start-ejs": "node ejs-parser.js",
+    "start-hbs": "node hbs-parser.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
